@@ -26,6 +26,8 @@ spec:
     service:
       type: ClusterIP
       port: 80
+      nodePorts:
+        http: 30000
     mariadb:
       master:
         persistence:
