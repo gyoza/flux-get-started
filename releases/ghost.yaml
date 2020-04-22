@@ -25,9 +25,9 @@ spec:
         cpu: 10m
     service:
       type: NodePort
-      port: ""
-      nodePorts:
-        http: 80
+      port: 80
+      #nodePorts:
+      #  http: 80
     mariadb:
       master:
         persistence:
