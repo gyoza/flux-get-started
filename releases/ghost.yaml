@@ -25,6 +25,7 @@ spec:
         cpu: 10m
     service:
       type: ClusterIP
+      port: 80
     mariadb:
       master:
         persistence:
