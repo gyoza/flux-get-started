@@ -24,10 +24,10 @@ spec:
         memory: 32Mi
         cpu: 10m
     service:
-      type: ClusterIP
+      type: NodePort
       port: ""
       nodePorts:
-        http: ""
+        http: 80
     mariadb:
       master:
         persistence:
