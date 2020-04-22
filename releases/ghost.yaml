@@ -26,7 +26,8 @@ spec:
     service:
       type: NodePort
       port: 80
-      nodePorts.http: 80
+      nodePorts:
+        port: ""
     mariadb:
       master:
         persistence:
