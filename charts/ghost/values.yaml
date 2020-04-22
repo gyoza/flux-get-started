@@ -55,7 +55,7 @@ volumePermissions:
 ## ref: https://github.com/bitnami/bitnami-docker-ghost#configuration
 ##
 ghostProtocol: http
-# ghostHost:
+ghostHost: localhost
 # ghostPort:
 ghostPath: /
 
