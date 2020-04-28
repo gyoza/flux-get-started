@@ -163,10 +163,7 @@ mariadb:
 ## For minikube, set this to NodePort, elsewhere use LoadBalancer
 ##
 service:
-  type: LoadBalancer
-  # HTTP Port
-  port: 80
-  ## loadBalancerIP:
+  type: ClusterIP
   ##
   ## nodePorts:
   ##   http: <to set explicitly, choose port between 30000-32767>
