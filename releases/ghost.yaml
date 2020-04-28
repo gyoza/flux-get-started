@@ -25,7 +25,6 @@ spec:
         cpu: 10m
     service:
       type: LoadBalancer
-      port: 80
       #nodePorts:
       #  port: ""
     mariadb:
